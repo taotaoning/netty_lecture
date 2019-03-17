@@ -1,0 +1,21 @@
+plugins {
+    id 'java'
+}
+
+group 'com.nt.netty_lecture'
+version '1.0'
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+// https://mvnrepository.com/artifact/io.netty/netty-all
+//compile group: 'io.netty', name: 'netty-all', version: '4.1.10.Final'
+
+dependencies {
+    compile(
+            "io.netty:netty-all:4.1.10.Final"
+    )
+}
