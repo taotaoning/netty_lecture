@@ -26,6 +26,7 @@ public class MyServer {
             ServerBootstrap serverBootstrap = new ServerBootstrap();
             serverBootstrap.group(bossGroup, workerGroup).channel(NioServerSocketChannel.class).
                     //handler 是针对bossgroup施加作用
+                            //对bossgroup添加日志打印的handler
                     handler(new LoggingHandler(LogLevel.INFO))
                     //childhandler 是针对workergroup施加作用的
             .childHandler(new MyServerinitializer());
