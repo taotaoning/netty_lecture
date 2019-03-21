@@ -1,13 +1,12 @@
 package com.netty.firstexample;
 
-import com.netty.firstexample.TestServerInitializer;
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.ChannelFuture;
 import io.netty.channel.EventLoopGroup;
 import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.nio.NioServerSocketChannel;
 
-public class TestServer {
+public class TestHttpServer {
 
     private static int BOSS = Runtime.getRuntime().availableProcessors() * 2;
 
@@ -27,7 +26,7 @@ public class TestServer {
             // 绑定线程池，
             server.group( boss,worker)
                     .channel(NioServerSocketChannel.class)// 指定连接方式为nio 如果为 阻塞式 ：OioServerSocketChannel
-                    .childHandler(new TestServerInitializer());// 绑定 子处理器
+                    .childHandler(new TestHttpServerInitializer());// 绑定 子处理器
 
             ChannelFuture f = server.bind(8899).sync();//监听端口  异步方式
             f.channel().closeFuture().sync(); // 关闭连接 异步方式
