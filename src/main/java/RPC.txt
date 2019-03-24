@@ -5,3 +5,30 @@ rpc: 远程过程调用,很多rpc框架是跨语言的。
 3.在客户端和服务器端分别引入rpc编译器所生成的文件，即可像调用本地方法一样调用远程方法。
 
 而rmi 是只针对Java的rpc框架。
+
+一般项目开发git都有三个分支：
+    branch：
+        develop ： 开发人员提交代码的分支 merge到test分支
+        test：   测试人员测试 merge到master
+        master： 测试之后项目上线
+
+如何通过git版本控制，把protoc生成的代码同步到其他机器上
+
+方法一：（不建议）
+1.通过 git submodule命令： 生成git仓库里的一个仓库。 （使用git submodule的问题：在项目切换（checkout）分支时，外层项目和里层项目要分别checkout到其他分支）
+
+example：
+    ServerProject：正常的项目开发工程
+
+    Project-Protobuf-Java:
+    是一个独立的工程，属于中间项目，把protoc生成的文件放到该工程下（通过git submodule 将该工程引入到ServerProject中）
+
+    ProtoFileProject：存放.proto 文件的工程
+
+    ClientProject：其他机器的工程，操作同ServerProject
+
+方法二：
+git subtree：类似submodule，但在将中间项目拉取到ServerProject时 相当于合并成一个项目到ServerProject，不会生成另一个仓库。
+                避免了git submodule的问题
+
+方法三：使用maven install 打成包，其他项目引用
