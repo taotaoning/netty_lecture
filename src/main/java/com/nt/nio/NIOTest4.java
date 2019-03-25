@@ -20,7 +20,7 @@ public class NIOTest4 {
         ByteBuffer byteBuffer = ByteBuffer.allocate(1024);
 
         while (true){
-            byteBuffer.clear();
+           byteBuffer.clear();
 
             int read = inputChannel.read(byteBuffer);
             if (-1 == read){

@@ -6,6 +6,7 @@ java.nio
     java.nio中有三个核心的概念：Selector Channel Buffer
     在java.nio中，我们是面向块（block）或者缓冲区（buffer）编程的。
    Buffer
+   buffer有的方法不会改变position值和limit值  有的方法会改变这两个值
     Buffer本身就是一块内存，底层实现上，它实际上就是个数组。数据的读、写都是通过Buffer来实现的。
     除了数组之外，Buffer还提供了对于数据的结构化访问方式，并且可以追踪到系统的读写过程。
     java中的7种原生数据类型都有各自对应的Buffer类型，eg：IntBuffer。。。。。 没有Boolean类型的Buffer
@@ -17,3 +18,9 @@ java.nio
 
 关于NIO Buffer中的3个重要状态属性含义：position limit capacity
     0<= mark <= position <= limit <= capacity
+
+ 通过nio读取文件涉及三个步骤
+    1.从fileinputstream中获取filechannel对象
+    2.创建buffer对象
+    3.将数据从channel读取到buffer
+    注意：当 position = limit时，channel.read(buffer) 返回的时0. （为什么调用clear方法？）
