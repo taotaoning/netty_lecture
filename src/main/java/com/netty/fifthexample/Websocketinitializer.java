@@ -10,7 +10,7 @@ import io.netty.handler.stream.ChunkedWriteHandler;
 
 /**
  * Create by TaoTaoNing
- * 2019/3/21
+ * 2019/3/21   
  **/
 public class Websocketinitializer extends ChannelInitializer<SocketChannel> {
     @Override
