@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02d24d65-ac50-4e72-ba4c-182dc7438108" name="Default Changelist" comment="4.6 内存零拷贝--- 没有拷贝到堆内内存，直接是底层操作系统执行，在堆外内存实施文件读取&#10;     注意，NewClient 例子中的文件大小问题：&#10;        文件过大，会导致不能完全传输文件">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <list id="8ce99256-06fd-48ac-9c38-256a3d9f34bf" name="测试撤销commit 未push" comment="测试撤销commit 未push" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -45,7 +44,7 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="25" />
-          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.15" value="1" />
@@ -59,15 +58,15 @@
           <entry key="project.open.time.25" value="3" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.8" value="2" />
-          <entry key="project.opened" value="26" />
+          <entry key="project.opened" value="27" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="17" />
-          <entry key="gradle" value="10" />
+          <entry key="gradle" value="12" />
           <entry key="html" value="1" />
-          <entry key="java" value="168" />
+          <entry key="java" value="172" />
           <entry key="md" value="2" />
           <entry key="proto" value="4" />
           <entry key="txt" value="20" />
@@ -76,9 +75,9 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="17" />
-          <entry key="Groovy" value="10" />
+          <entry key="Groovy" value="12" />
           <entry key="HTML" value="1" />
-          <entry key="JAVA" value="168" />
+          <entry key="JAVA" value="172" />
           <entry key="Markdown" value="2" />
           <entry key="PLAIN_TEXT" value="24" />
         </counts>
@@ -105,8 +104,9 @@
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
         <counts>
-          <entry key="git.branch.checkout.local" value="4" />
+          <entry key="git.branch.checkout.local" value="6" />
           <entry key="git.branch.create.new" value="1" />
+          <entry key="git.branch.delete.local" value="1" />
           <entry key="git.branch.merge" value="2" />
           <entry key="git.branch.rebase" value="1" />
           <entry key="git.checkout.as.new.branch" value="2" />
@@ -119,11 +119,51 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/NetShopFeeDto.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+              <folding>
+                <element signature="e#374#375#0" expanded="true" />
+                <element signature="e#399#400#0" expanded="true" />
+                <element signature="e#435#436#0" expanded="true" />
+                <element signature="e#463#464#0" expanded="true" />
+                <element signature="e#494#495#0" expanded="true" />
+                <element signature="e#522#523#0" expanded="true" />
+                <element signature="e#564#565#0" expanded="true" />
+                <element signature="e#598#599#0" expanded="true" />
+                <element signature="e#631#632#0" expanded="true" />
+                <element signature="e#661#662#0" expanded="true" />
+                <element signature="e#707#708#0" expanded="true" />
+                <element signature="e#745#746#0" expanded="true" />
+                <element signature="e#782#783#0" expanded="true" />
+                <element signature="e#816#817#0" expanded="true" />
+                <element signature="e#870#871#0" expanded="true" />
+                <element signature="e#916#917#0" expanded="true" />
+                <element signature="e#952#953#0" expanded="true" />
+                <element signature="e#985#986#0" expanded="true" />
+                <element signature="e#1037#1038#0" expanded="true" />
+                <element signature="e#1081#1082#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Person.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="485">
+              <caret line="38" column="20" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/netty/fifthexample/Websocketinitializer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-52">
-              <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+            <state relative-caret-position="351">
+              <caret line="19" column="60" selection-start-line="19" selection-start-column="60" selection-end-line="19" selection-end-column="60" />
             </state>
           </provider>
         </entry>
@@ -132,7 +172,7 @@
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="567">
-              <caret line="26" selection-start-line="26" selection-end-line="28" />
+              <caret line="21" selection-start-line="21" selection-end-line="26" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -160,7 +200,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="test_branch" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
   </component>
@@ -342,7 +382,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="6222973321522" />
+        <entry key="$PROJECT_DIR$" value="6222992494773" />
         <entry key="$PROJECT_DIR$/.gradle" value="0" />
         <entry key="$PROJECT_DIR$/build.gradle" value="1409083806" />
         <entry key="$PROJECT_DIR$/settings.gradle" value="2755776995" />
@@ -570,6 +610,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -596,32 +637,10 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="com.nt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="netty_lecture" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="com.nt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="netty_lecture" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="netty" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="com.nt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -629,7 +648,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555074171268" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../springboot-dubbo-demo/springboot-dubbo-demo1/springboot-dubbo-provider" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -765,6 +784,7 @@
       <workItem from="1559646241983" duration="421000" />
       <workItem from="1562921718972" duration="1220000" />
       <workItem from="1563415443068" duration="1375000" />
+      <workItem from="1563435187501" duration="1609000" />
     </task>
     <task id="LOCAL-00001" summary="2019-3.17">
       <created>1552816322850</created>
@@ -959,13 +979,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="106148000" />
+    <option name="totallyTimeSpent" value="107757000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4978903" visible="true" weight="0.33383802" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4978903" visible="true" weight="0.33913702" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -980,7 +999,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.3290735" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4996215" visible="true" weight="0.329582" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.4996215" visible="true" weight="0.5321543" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5003785" side_tool="true" weight="0.329582" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.1376" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
@@ -1395,7 +1414,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/NetShopFeeDto.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
+        <state relative-caret-position="162">
           <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
           <folding>
             <element signature="e#374#375#0" expanded="true" />
@@ -1422,24 +1441,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="38" column="20" lean-forward="true" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/netty/fifthexample/Websocketinitializer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-52">
-          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+        <state relative-caret-position="351">
+          <caret line="19" column="60" selection-start-line="19" selection-start-column="60" selection-end-line="19" selection-end-column="60" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="567">
-          <caret line="26" selection-start-line="26" selection-end-line="28" />
+          <caret line="21" selection-start-line="21" selection-end-line="26" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="485">
+          <caret line="38" column="20" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
         </state>
       </provider>
     </entry>
