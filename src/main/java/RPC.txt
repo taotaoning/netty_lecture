@@ -32,3 +32,5 @@ git subtree：类似submodule，但在将中间项目拉取到ServerProject时 �
                 避免了git submodule的问题
 
 方法三：使用maven install 打成包，其他项目引用
+
+--test git
