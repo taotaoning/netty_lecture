@@ -14,10 +14,15 @@ repositories {
 // https://mvnrepository.com/artifact/io.netty/netty-all
 //compile group: 'io.netty', name: 'netty-all', version: '4.1.10.Final'
 //compile group: 'com.google.protobuf', name: 'protobuf-java-util', version: '3.6.1'
+// https://mvnrepository.com/artifact/net.sf.json-lib/json-lib
+//compile group: 'net.sf.json-lib', name: 'json-lib', version: '2.4'
+// https://mvnrepository.com/artifact/com.alibaba/fastjson
+//compile group: 'com.alibaba', name: 'fastjson', version: '1.2.56'
 dependencies {
     compile(
             "io.netty:netty-all:4.1.10.Final",
             "com.google.protobuf:protobuf-java:3.6.1",
-            "com.google.protobuf:protobuf-java-util:3.6.1"
+            "com.google.protobuf:protobuf-java-util:3.6.1",
+            "com.alibaba:fastjson:1.2.56"
     )
 }
