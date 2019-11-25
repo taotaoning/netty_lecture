@@ -1,5 +1,3 @@
-import com.alibaba.fastjson.annotation.JSONField;
-
 /**
  * Create by TaoTaoNing
  * 2019/4/9
